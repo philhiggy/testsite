@@ -746,6 +746,43 @@ html {scroll-padding-top:105px}
 </style>
 <style id="cw-discord-icon-style">.cta-social .discord-pending{cursor:default!important}.cta-social .discord-icon{display:inline-flex;align-items:center;justify-content:center;color:#8ea1ff}.cta-social .discord-icon svg{display:block;width:23px;height:23px}</style>
 <style id="cw-discord-footer-alignment">.footer-social > a.cw-discord-footer {cursor:default !important; text-decoration:none !important;} .footer-social > a.cw-discord-footer svg {display:block;width:22px;height:22px;}</style>
+<style id="cw-original-service-icons">#what-we-do .service-icon{font-size:1.55rem !important;line-height:1 !important;}</style>
+<style id="cw-random-quiz-clean-refresh">
+/* Only the Random-Quiz feature is redesigned. */
+.cws-trailer {padding:76px 24px !important;background:linear-gradient(135deg,#0b1829 0%,#0d1c30 60%,#10253b 100%) !important;}
+.cws-trailer .cws-wrapper {max-width:1160px !important;grid-template-columns:minmax(0,1fr) minmax(320px,.93fr) !important;gap:clamp(35px,6vw,90px) !important;}
+.cws-trailer .cws-eyebrow {padding:7px 13px !important;font-size:.69rem !important;letter-spacing:.14em !important;margin-bottom:23px !important;}
+.cws-trailer .cws-heading {font-size:clamp(2.9rem,5.6vw,5rem) !important;line-height:1.02 !important;letter-spacing:-.055em !important;margin-bottom:16px !important;}
+.cws-trailer .cws-tagline {font-size:clamp(1.06rem,1.7vw,1.24rem) !important;color:#86d8ff !important;margin:0 0 23px !important;line-height:1.5 !important;}
+.cws-trailer .cws-description {max-width:53ch !important;font-size:1rem !important;line-height:1.85 !important;color:#bbcbdd !important;margin-bottom:30px !important;}
+.cws-trailer .cws-button {border-radius:11px !important;padding:16px 28px !important;font-size:.98rem !important;min-height:52px !important;}
+.cws-trailer .cws-showcase {
+  min-height:360px !important;border-radius:22px !important;
+  background:radial-gradient(ellipse at 52% 50%,rgba(60,121,211,.25),transparent 63%),linear-gradient(155deg,#162b48,#111d33 80%) !important;
+  border:1px solid rgba(119,186,247,.24) !important;
+  box-shadow:0 24px 60px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.05) !important;
+}
+.cws-trailer .cws-showcase::before {opacity:.35 !important;background-size:34px 34px !important;}
+.cws-trailer .cws-showcase::after {opacity:.11 !important;}
+.cws-trailer .cws-showcase-content {width:100% !important;min-height:360px !important;display:flex !important;flex-direction:column !important;justify-content:space-between !important;padding:24px 28px !important;}
+.cws-trailer .cws-art-top,.cws-trailer .cws-art-bottom {display:flex;align-items:center;justify-content:space-between;}
+.cws-trailer .cws-art-label {font:700 .65rem/1.3 system-ui,sans-serif;letter-spacing:.14em;color:#9bbbd9;display:flex;align-items:center;gap:9px;}
+.cws-trailer .cws-status-dot {width:7px;height:7px;border-radius:50%;background:#4ce2c9;box-shadow:0 0 10px rgba(76,226,201,.5);}
+.cws-trailer .cws-art-star {font-size:1.2rem;color:#83caff;}
+.cws-trailer .cws-art-main {text-align:center;padding:16px 0;}
+.cws-trailer .cws-game-mark {width:84px !important;height:84px !important;border-radius:23px !important;margin-bottom:18px !important;background:linear-gradient(145deg,rgba(77,178,251,.22),rgba(113,99,236,.19)) !important;}
+.cws-trailer .cws-game-mark svg {width:53px !important;height:53px !important;}
+.cws-trailer .cws-game-title {font-size:clamp(2rem,3vw,2.7rem) !important;letter-spacing:-.05em !important;margin-bottom:9px !important;}
+.cws-trailer .cws-game-title span {color:#76d7ff;}
+.cws-trailer .cws-game-subtitle {font-size:.67rem !important;letter-spacing:.2em !important;color:#a9c2df !important;}
+.cws-trailer .cws-art-bottom {justify-content:center;gap:14px;font:700 .65rem/1 system-ui,sans-serif;letter-spacing:.16em;color:#8caacb;}
+.cws-trailer .cws-art-separator {width:4px;height:4px;background:#4d779e;border-radius:50%;}
+@media(max-width:790px) {
+ .cws-trailer {padding:64px 20px !important;}
+ .cws-trailer .cws-wrapper {grid-template-columns:1fr !important;gap:32px !important;}
+ .cws-trailer .cws-showcase,.cws-trailer .cws-showcase-content {min-height:310px !important;}
+}
+</style>
 </head>
 
 <body class="home wp-singular page-template page-template-frontpage page-template-frontpage-php page page-id-11 wp-custom-logo wp-theme-cloudworkshop-theme tutor-lms is-front-page elementor-default elementor-kit-79">
@@ -1042,7 +1079,7 @@ We turn cloud knowledge into real-world capability through four interconnected d
 
 <div class="service-card">
 
-<div class="service-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 9h.01M15 9h.01M9 12h.01M15 12h.01"/></svg></div>
+<div class="service-icon">🏗️</div>
 
 <h3>Hands-on Workshops</h3>
 
@@ -1052,7 +1089,7 @@ We turn cloud knowledge into real-world capability through four interconnected d
 
 <div class="service-card">
 
-<div class="service-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="14" rx="5"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5M8 22h8"/></svg></div>
+<div class="service-icon">🎙️</div>
 
 <h3>Podcast Production</h3>
 
@@ -1062,7 +1099,7 @@ We turn cloud knowledge into real-world capability through four interconnected d
 
 <div class="service-card">
 
-<div class="service-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8l-5-5H8Z"/><path d="M14 3v6h7M7 13h10M7 17h7"/></svg></div>
+<div class="service-icon"><svg aria-hidden="true" viewBox="0 0 24 24" width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 3.5V20h16.5L4 3.5Z" fill="#FFC83D"/><path d="M8 12.4v3.5h3.5L8 12.4Z" fill="#18304B"/></svg></div>
 
 <h3>Governance Frameworks</h3>
 
@@ -1072,7 +1109,7 @@ We turn cloud knowledge into real-world capability through four interconnected d
 
 <div class="service-card">
 
-<div class="service-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9c0-1.7-1.5-2.8-3.2-2.3-.9.3-1.9-.4-1.8-1.4.2-1.7-1.6-2.5-4-2.5Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="11" cy="7.5" r="1"/><circle cx="7.8" cy="15.5" r="1"/></svg></div>
+<div class="service-icon">🎨</div>
 
 <h3>Creative Branding</h3>
 
@@ -1082,7 +1119,7 @@ We turn cloud knowledge into real-world capability through four interconnected d
 
 <div class="service-card">
 
-<div class="service-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12h12a4 4 0 0 1 3.8 5.3l-.5 1.5a2 2 0 0 1-3.2.9L15 17H9l-3.1 2.7a2 2 0 0 1-3.2-.9l-.5-1.5A4 4 0 0 1 6 12Z"/><path d="M7 15v4M5 17h4M16 15h3M17.5 13.5v3"/></svg></div>
+<div class="service-icon">🎮</div>
 
 <h3>Game Development</h3>
 
@@ -1092,7 +1129,7 @@ We turn cloud knowledge into real-world capability through four interconnected d
 
 <div class="service-card">
 
-<div class="service-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="7" width="12" height="10" rx="2"/><path d="M12 3v4M9 3h6M9 12h.01M15 12h.01M8 17v3M16 17v3M3 10v4M21 10v4"/></svg></div>
+<div class="service-icon">🤖</div>
 
 <h3>AI &amp; Cloud Training</h3>
 
@@ -1254,30 +1291,18 @@ Meet the passionate experts who drive The Cloud Workshop Studio — bringing rea
 
 <section class="cws-trailer">
 <div class="cws-wrapper"><div class="cws-copy"><span class="cws-eyebrow">Featured Studio Game</span>
-<h2 class="cws-heading">Random-Quiz — Cloud Workshop Studio Game</h2>
-<p class="cws-tagline">
-
-A Game which is fun and educational.
-
-</p>
-<p class="cws-description">
-
-A personalised experience from <strong>Cloud Workshop Studio</strong> — 
-
-Have fun while learning about cloud technologies. If you want a character of you, Scott can make one for you, so you can be part of the action! <a href="mailto:scott@thecloudworkshop.uk">Get in touch</a> to learn more.
-
-</p>
-<a class="cws-button" href="https://scottsta.itch.io/random-quiz">
-
-Play Random-Quiz for Azure
-
-</a>
-</div><div aria-label="Random-Quiz featured game artwork" class="cws-showcase">
-<div aria-hidden="true" class="cws-game-dots"><i></i><i></i><i></i></div>
-<div class="cws-showcase-content">
-<div aria-hidden="true" class="cws-game-mark"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 64 64"><path d="M18 26h28c8 0 12 7 14 18 1 6-4 9-9 5l-9-8H22l-9 8c-5 4-10 1-9-5 2-11 6-18 14-18Z"></path><path d="M18 34v12M12 40h12"></path><circle cx="43" cy="35" r="2"></circle><circle cx="51" cy="41" r="2"></circle></svg></div>
-<p class="cws-game-title">Random<span style="color:#79d8ff">-Quiz</span></p>
-<p class="cws-game-subtitle">Play · Learn · Explore</p>
+<h2 class="cws-heading">Random-Quiz</h2>
+<p class="cws-tagline">Learn cloud technology. Have fun doing it.</p>
+<p class="cws-description">A personalised, educational game from Cloud Workshop Studio. Explore cloud technology through play — and if you’d like a character of your own in the game, <a href="mailto:scott@thecloudworkshop.uk">get in touch with Scott</a>.</p>
+<a class="cws-button" href="https://scottsta.itch.io/random-quiz">Play Random-Quiz</a>
+</div><div aria-label="Random-Quiz featured game artwork" class="cws-showcase"><div class="cws-showcase-content">
+<div class="cws-art-top"><span class="cws-art-label"><span class="cws-status-dot"></span> CLOUD WORKSHOP STUDIO</span><span aria-hidden="true" class="cws-art-star">✦</span></div>
+<div class="cws-art-main">
+<div aria-hidden="true" class="cws-game-mark"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.7" viewbox="0 0 64 64"><path d="M18 26h28c8 0 12 7 14 18 1 6-4 9-9 5l-9-8H22l-9 8c-5 4-10 1-9-5 2-11 6-18 14-18Z"></path><path d="M18 34v12M12 40h12"></path><circle cx="43" cy="35" r="2"></circle><circle cx="51" cy="41" r="2"></circle></svg></div>
+<div class="cws-game-title">Random<span>-Quiz</span></div>
+<p class="cws-game-subtitle">THE CLOUD LEARNING GAME</p>
+</div>
+<div class="cws-art-bottom"><span>EXPLORE</span><span class="cws-art-separator"></span><span>PLAY</span><span class="cws-art-separator"></span><span>LEARN</span></div>
 </div></div></div>
 </section>
 
